@@ -31,6 +31,8 @@
         <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+        <script src="https://kit.fontawesome.com/d389fd3870.js" crossorigin="anonymous"></script>
         
         <!-- Theme CSS -->
     	<link href="css/style.css" rel="stylesheet" media="screen">
@@ -240,32 +242,11 @@
                 <div class="row">
                 	<div class="col-md-offset-2 col-md-8">
                     	
-                        	<div class="row">
-                            	<div class="col-md-6">
-                                	<div class="form-group">
-    									<label for="inputname">*FIRST NAME</label>
-                                        <div class="input-group">
-     										<div class="input-group-addon"><i class="de-icon-heart-empty"></i></div>
-    										<input type="text" class="form-control ajax-input" id="inputname" placeholder="" data-required="First Name Required" data-output-label="Output First Name">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                	<div class="form-group">
-    									<label for="inputname">*LAST NAME</label>
-                                        <div class="input-group">
-     										<div class="input-group-addon"><i class="de-icon-heart-empty"></i></div>
-    										<input type="text" class="form-control ajax-input" id="inputlastname" placeholder="" data-required="Last Name Required" data-output-label="Output Last Name">
-                                        </div>
-                                     </div>
-                                </div>
-                           
-                        </div>
                         <div class="form-group">
-    						<label for="inputemail">*EMAIL</label>
+    						<label for="inputemail">*RSVP CODE</label>
                             <div class="input-group">
-                            	<div class="input-group-addon"><i class="de-icon-mail"></i></div>
-    							<input type="email" id="inputemail"  class="form-control ajax-input" placeholder="" data-required="Email Required" data-output-label="Output Email">
+                            	<div class="input-group-addon"><i class="fas fa-key"></i></div>
+    							<input type="text" id="inputrsvpcode"  class="form-control ajax-input" placeholder="" data-required="RSVP Code Required" data-output-label="Output Email">
                           	</div>
  						</div>
                         
@@ -303,10 +284,10 @@
                                      <input type="radio" name="guest" id="5" value="5">5
                                    </label>
                                    <label class="btn btn-primary no-icon">
-                                    <input type="radio" name="guest" id="5" value="5">6
+                                    <input type="radio" name="guest" id="6" value="6">6
                                   </label>
                                   <label class="btn btn-primary no-icon">
-                                    <input type="radio" name="guest" id="5" value="5">7
+                                    <input type="radio" name="guest" id="7" value="7">7
                                   </label>
                              </div>
                          </div> 
@@ -314,7 +295,7 @@
                         
                         <div class="form-group">
     						<label for="inputmessage">LEAVE YOUR MESSAGE</label>
-    						<textarea id="inputmessage" class="form-control ajax-input" rows="14" data-output-label="Output Message"></textarea>
+    						<textarea id="inputmessage" class="form-control ajax-input" rows="14" data-output-label="Output Message" placeholder="Feel free to share your excitement with a message or let us know if you have dietary restrictions!"></textarea>
  						</div>       
                         
                         <div class="form-group submit-wrapper">
@@ -406,6 +387,11 @@
         <script src="js/magnific-popup/jquery.magnific-popup.js"></script>
         <!-- Owl Carousel -->
         <script src="js/owlcarousel/owl.carousel.js"></script>
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
         <!-- RSVP -->
         <script src="js/rsvp/rsvp.js"></script>
         

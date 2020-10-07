@@ -340,10 +340,10 @@ $(document).ready(function() {
 	var theday = new Date();
 	// theday = new Date(2018, 11, 19);
 	theday = new Date(2021, 8, 25,13);
-	$('#countdown').countdown({until: theday, format: 'WDHMS'});
+	$('#countdown').countdown({until: theday, format: 'DHMS'});
 	$('#countdown').countdown($.countdown.regionalOptions['custom-label']); 
 		 
-	$('#date-countdown').countdown({until: theday, format: 'WDHMS'});
+	$('#date-countdown').countdown({until: theday, format: 'DHMS'});
 		 
 	// 08. MOBILE MENU
 	//==================================================================================

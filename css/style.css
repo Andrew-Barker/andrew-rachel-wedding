@@ -1061,9 +1061,6 @@ img.with-border{
 /* ----------------------------------------------*/
 #save-the-date{
 	font-family: 'Pacifico', cursive; 
-	-ms-transform: rotate(-10deg); /* IE 9 */
-    -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
-    transform: rotate(-10deg);
 	padding-top:100px;
 	padding-right:50px;
 	margin-bottom:20px;
@@ -2502,12 +2499,12 @@ form .has-error .btn-primary{
 /* ----------------------------------------------*/
 
 #counting-down{
-	text-align:center; 
-	color:#FFF; 
+	text-align:center;
+	color:#FFF;
 	font-family: 'Pacifico';
-	-ms-transform: rotate(-10deg); 
-	-webkit-transform: rotate(-10deg); 
-	transform: rotate(-10deg);
+	/* -ms-transform: rotate(-10deg); */
+	/* -webkit-transform: rotate(-10deg); */
+	/* transform: rotate(-10deg); */
 	padding-right:30px;
 	margin-top:0px;
 	margin-bottom:25px;
@@ -2545,7 +2542,7 @@ address>a{
 
 .simple-countdown .countdown-amount {
 	display:inline-block;
-	font-size:33px;
+	font-size:32px;
 	letter-spacing:2px;
 }
 .simple-countdown .countdown-period {
@@ -2588,9 +2585,9 @@ footer .image-divider.fixed-height{
 	text-align:center; 
 	color:#FFF; 
 	font-family: 'Pacifico';
-	-ms-transform: rotate(-10deg); 
+	/* -ms-transform: rotate(-10deg); 
 	-webkit-transform: rotate(-10deg); 
-	transform: rotate(-10deg);
+	transform: rotate(-10deg); */
 	padding-right:30px;
 	margin-top:40px;
 	margin-bottom:25px;
