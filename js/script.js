@@ -1,7 +1,7 @@
 'use strict';
 
 /*============================== 
-	- Template Name: FOREVER - Responsive HTML Wedding Template
+	- Template Name: Everything you need to know about Rachel and Andrew's special day.
 	- Author: DoubleEight
 	- Version: 1.0
 	- Website: www.dethemes.com
