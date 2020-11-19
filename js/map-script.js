@@ -76,7 +76,7 @@
      		});
 			
 		var marker3 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(39.3265567, -84.4265096),
+       		position: new google.maps.LatLng(39.3716125, -84.3751206),
        		draggable: false,
        		raiseOnDrag: false,
        		icon: ' ',
