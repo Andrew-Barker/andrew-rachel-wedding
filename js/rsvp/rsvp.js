@@ -213,8 +213,9 @@
 		let guestList = [];
 		let validGuest;
 		emailjs.init('user_4ohqiouOGl4CVR2LkygXx');
+		const jsonLocation = window.location.origin + '/js/rsvp/rsvp.json';
 
-		$.getJSON( "../js/rsvp/rsvp.json", function( data ) {
+		$.getJSON( jsonLocation, function( data ) {
 
 			// console.log('data:\n', data); //json output
 			guestList = data;
