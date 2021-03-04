@@ -214,7 +214,7 @@
 		let validGuest;
 		emailjs.init('user_4ohqiouOGl4CVR2LkygXx');
 
-		$.getJSON( "js/rsvp/rsvp.json", function( data ) {
+		$.getJSON( "../js/rsvp/rsvp.json", function( data ) {
 
 			// console.log('data:\n', data); //json output
 			guestList = data;
