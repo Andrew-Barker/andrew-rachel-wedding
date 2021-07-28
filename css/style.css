@@ -2532,6 +2532,18 @@ address>a{
 	cursor: pointer;
 }
 
+small>a.reserve{
+	color: #9AB5C9 !important;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+small>a.reserve:hover{
+	/* color: #9AB5C9 !important; */
+	text-decoration: none;
+	cursor: pointer;
+}
+
 .simple-countdown.is-countdown {
 	border: none;
 	background-color:transparent;
